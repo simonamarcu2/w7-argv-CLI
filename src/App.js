@@ -1,3 +1,4 @@
+
 const{ Movie, movieArr} = require("./utils");
 
 const app = (args) => {
@@ -15,8 +16,9 @@ const app = (args) => {
                 console.log(movieArr);
                 break;
             default:
-            console.log("Incorrect command");
+                console.log("Incorrect command");
     }
 };
 
 app(process.argv);
+
